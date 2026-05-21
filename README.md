@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Présentation du projet
+##  Présentation du projet
 
 **MILORA** est une boutique en ligne spécialisée dans la vente de bodysuits gainants pour femmes. Ce projet a été conçu et développé dans le cadre de la création d'un portfolio professionnel démontrant la capacité à livrer une application web e-commerce complète et production-ready.
 
@@ -14,25 +14,25 @@ L'objectif était de créer une expérience d'achat fluide, moderne et optimisé
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 ### Côté client
-- 🏠 **Page d'accueil** avec hero plein écran, sections produit, avant/après, bandeau défilant, FAQ
-- 🛍️ **Page produit** avec galerie photos interactive (miniatures cliquables), sélecteur de taille et quantité
-- 🛒 **Panier** dynamique persistant (session anonyme via localStorage)
-- 💳 **Paiement sécurisé** via Stripe Checkout (redirection)
-- 📦 **Suivi de commande** par numéro + email
-- ⭐ **Avis clients** avec photos UGC, lightbox, formulaire de soumission avec upload photo
-- 📬 **Newsletter** avec offre -10% en échange de l'email
-- 📩 **Formulaire de contact** avec confirmation
+-  **Page d'accueil** avec hero plein écran, sections produit, avant/après, bandeau défilant, FAQ
+-  **Page produit** avec galerie photos interactive (miniatures cliquables), sélecteur de taille et quantité
+-  **Panier** dynamique persistant (session anonyme via localStorage)
+-  **Paiement sécurisé** via Stripe Checkout (redirection)
+-  **Suivi de commande** par numéro + email
+-  **Avis clients** avec photos UGC, lightbox, formulaire de soumission avec upload photo
+-  **Newsletter** avec offre -10% en échange de l'email
+-  **Formulaire de contact** avec confirmation
 
 ### Côté administration
-- ✅ Modération des avis clients (validation manuelle avant publication)
-- 📊 Webhook Stripe pour mise à jour automatique du statut des commandes
+-  Modération des avis clients (validation manuelle avant publication)
+-  Webhook Stripe pour mise à jour automatique du statut des commandes
 
 ---
 
-## 🛠️ Stack technique
+##  Stack technique
 
 | Couche | Technologie | Usage |
 |--------|-------------|-------|
@@ -49,7 +49,7 @@ L'objectif était de créer une expérience d'achat fluide, moderne et optimisé
 
 ---
 
-## 📁 Structure du projet
+##  Structure du projet
 
 ```
 milora/
@@ -97,7 +97,7 @@ milora/
 
 ---
 
-## 🗄️ Base de données
+##  Base de données
 
 7 tables PostgreSQL :
 
@@ -114,7 +114,7 @@ reviews           → Avis clients (avec modération)
 
 ---
 
-## 🚀 Installation et lancement
+##  Installation et lancement
 
 ### Prérequis
 - Node.js 18+
@@ -179,7 +179,7 @@ stripe listen --forward-to localhost:5000/api/stripe/webhook
 
 ---
 
-## 🌐 Pages et routes
+##  Pages et routes
 
 | URL | Description |
 |-----|-------------|
@@ -217,7 +217,7 @@ stripe listen --forward-to localhost:5000/api/stripe/webhook
 
 ---
 
-## 💳 Test du paiement Stripe
+##  Test du paiement Stripe
 
 ```
 Carte test : 4242 4242 4242 4242
@@ -227,7 +227,7 @@ CVC        : n'importe quel 3 chiffres
 
 ---
 
-## ⚡ Difficultés rencontrées et solutions
+##  Difficultés rencontrées et solutions
 
 ### 1. Panier persistant sans authentification
 **Problème :** Conserver le panier d'un utilisateur non connecté entre les pages.  
@@ -251,7 +251,7 @@ CVC        : n'importe quel 3 chiffres
 
 ---
 
-## 🎨 Choix de design
+##  Choix de design
 
 - **Minimaliste** : fond blanc dominant, noir pour les textes et CTA, rouge corail uniquement pour les badges promo
 - **UGC (User Generated Content)** : section avis avec vraies photos clients en format portrait, style Instagram
@@ -260,7 +260,7 @@ CVC        : n'importe quel 3 chiffres
 
 ---
 
-## 📦 Déploiement recommandé
+##  Déploiement recommandé
 
 | Service | Usage | Prix |
 |---------|-------|------|
@@ -271,12 +271,12 @@ CVC        : n'importe quel 3 chiffres
 
 ---
 
-## 👤 Auteur
+##  Auteur
 
 Développé dans le cadre d'un projet portfolio e-commerce fullstack.
 
 ---
 
-## 📄 Licence
+##  Licence
 
 MIT — libre d'utilisation et de modification.

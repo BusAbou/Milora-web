@@ -1,0 +1,16 @@
+{
+  "experimentalServices": {
+    "frontend": {
+      "root": "frontend",
+      "framework": "create-react-app",
+      "buildCommand": "npm run build",
+      "outputDirectory": "build"
+    },
+    "backend": {
+      "root": "backend",
+      "framework": "express",
+      "buildCommand": "npm install",
+      "startCommand": "node server.js"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+# Blueprint Render pour le backend Express de Milora.
+# Sur Render : New -> Blueprint -> connecter ce repo.
+# Les variables marquées "sync: false" sont à renseigner manuellement dans le dashboard
+# (elles ne sont jamais committées en clair).
+services:
+  - type: web
+    name: milora-backend
+    runtime: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: STRIPE_SECRET_KEY
+        sync: false
+      - key: STRIPE_WEBHOOK_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
